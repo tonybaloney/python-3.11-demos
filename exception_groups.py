@@ -29,7 +29,7 @@ def process_orders(orders):
 
 try:
     process_orders(orders)
-except *ValueError as ve:
+except* ValueError as ve:
     print("Invalid orders")
     for e in ve.exceptions:
         print(" - ", e.__notes__)
